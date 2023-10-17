@@ -47,7 +47,6 @@ print(f"In warehouse 1 stocked {wh1} items\n"
       f"In warehouse 2 stocked {wh2} items\n"
       f"In warehouse 3 stocked {wh3} items\n")
 
-
 # task 06
 """
 Михайло разом з батьками вирішили купити комп’ютер, ско-
@@ -59,9 +58,9 @@ payment_quantity = 18
 payment_amount = 1179
 computer_cost = payment_amount * payment_quantity
 
-print (f"To calculate the cost of the computer, we need to multiply the quantity of payments ({payment_quantity}) by the amount of one payment ({payment_amount})\n"
-       f"Then we will know the total cost ({computer_cost})\n")
-
+print(
+    f"To calculate the cost of the computer, we need to multiply the quantity of payments ({payment_quantity})\n"
+    f"by the amount of one payment ({payment_amount}). Then we will know the total cost: ({computer_cost}) UAH\n")
 
 # task 07
 """
@@ -116,7 +115,7 @@ total_cost = (pizza_large_quantity * pizza_large_price +
               juice_quantity * juice_price +
               cake_quantity * cake_price +
               water_quantity * water_price)
-print(f"Total cost of the order for Irina:{total_cost} UAH\n")
+print(f"Total cost of the order for Irina: {total_cost} UAH\n")
 
 # task 09
 """
@@ -133,9 +132,9 @@ if all_photos % photo_in_1_page_max != 0:
     number_of_pages += 1
 
 print(f"In order to calculate how many pages Igor will need, he needs to do the following \n"
-      f"You need to take the number of all photos ({all_photos}) and divide them by the number of photos that can be on the page ({photo_in_1_page_max})\n"
+      f"You need to take the number of all photos ({all_photos})\n"
+      f"and divide them by the number of photos that can be on the page ({photo_in_1_page_max})\n"
       f"Igor must have {number_of_pages} pages\n")
-
 
 # task 10
 """
@@ -148,17 +147,18 @@ print(f"In order to calculate how many pages Igor will need, he needs to do the 
 равку під час цієї подорожі, кожного разу заправляючи пов-
 ний бак?
 """
-kharkiv_to_budapesht = 1600
+kharkiv_to_budapest = 1600
 petrol_consumption_100 = 9
 tank_capacity = 48
 
-total_petrol_amount = (kharkiv_to_budapesht / 100) * petrol_consumption_100
+total_petrol_amount = (kharkiv_to_budapest / 100) * petrol_consumption_100
 refueling_quantity = total_petrol_amount // tank_capacity
 if total_petrol_amount % tank_capacity != 0:
     refueling_quantity += 1
 
 print(f"In order to calculate the total amount of fuel that will be needed for the trip, you need to:\n"
-      f"Divide the distance from Kharkiv to Budapest ({kharkiv_to_budapesht}(km)) by 100 and multiply by the fuel consumption per 100 km ({petrol_consumption_100}(l))\n"
+      f"Divide the distance from Kharkiv to Budapest ({kharkiv_to_budapest}(km)) by 100 \n"
+      f"and multiply by the fuel consumption per 100 km ({petrol_consumption_100}(l))\n"
       f"The total number of liters of gasoline for this trip will be: {total_petrol_amount} liters\n")
 
 print(f"In order to calculate the total number of refueling that will be needed for the trip, you need to:\n"
