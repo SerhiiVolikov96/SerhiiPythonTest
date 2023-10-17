@@ -1,5 +1,5 @@
 # task 01 == Розділіть змінну так, щоб вона займала декілька фізичних лінії
-# task 02 == Знайдіть та екрануйте всі символи одинарної дужки у тексті  ???
+# task 02 == Знайдіть та екрануйте всі символи одинарної дужки у тексті
 alice_in_wonderland = ('"Would you tell me, please, which way I ought to go from here?"\n'
                        '"That depends a good deal on where you want to get to," said the Cat.\n'
                        '"I don\'t much care where ——" said Alice.\n'
