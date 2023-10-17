@@ -74,7 +74,11 @@ print("If the evening temperature rose by 4 degrees\n"
 boys = 24
 girls = boys / 2
 children_today = (boys - 1) + (girls - 2)
-print(children_today)
+
+print("If the children initially had 24 boys, then the number of girls is half the number of boys:\n"
+      "The number of girls:", girls, "\n"
+      "The number of children today, after the departure of one boy and two girls:\n"
+      "Number of children today:", children_today)
 #
 # # task 10
 # """
@@ -86,4 +90,11 @@ book_1_costs = 8
 book_2_costs = book_1_costs + 2
 book_3_costs = (book_1_costs + book_2_costs) / 2
 all_costs = book_1_costs + book_2_costs + book_3_costs
-print(all_costs)
+
+
+print("The first book costs 8 UAH, the second book costs 2 UAH more,\n"
+      "and the third book costs half the cost of the first and second books together:\n"
+      "The cost of the first book:", book_1_costs, "UAH\n"
+      "Cost of the second book:", book_2_costs, "UAH\n"
+      "The cost of the third book:", book_3_costs, "UAH\n"
+      "The cost of all books if you buy one copy:", all_costs, "UAH")
