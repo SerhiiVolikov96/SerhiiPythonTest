@@ -116,7 +116,7 @@ total_cost = (pizza_large_quantity * pizza_large_price +
               juice_quantity * juice_price +
               cake_quantity * cake_price +
               water_quantity * water_price)
-print("Загальна вартість замовлення для Іринки:", total_cost, "грн\n")
+print(f"Total cost of the order for Irina:{total_cost} UAH\n")
 
 # task 09
 """
@@ -132,9 +132,9 @@ number_of_pages = all_photos // photo_in_1_page_max
 if all_photos % photo_in_1_page_max != 0:
     number_of_pages += 1
 
-print(f"Для того щоб підрахувати скількі знадобится сторінок Ігорю треба зробити наступне \n"
-      f"Треба взяти кількість всіх фото ({all_photos}) та разділити іх на кількість фото, яка максімально може бути на сторінці ({photo_in_1_page_max})\n"
-      f"Ігорю треба бути мати {number_of_pages} сторінок\n")
+print(f"In order to calculate how many pages Igor will need, he needs to do the following \n"
+      f"You need to take the number of all photos ({all_photos}) and divide them by the number of photos that can be on the page ({photo_in_1_page_max})\n"
+      f"Igor must have {number_of_pages} pages\n")
 
 
 # task 10
@@ -157,10 +157,10 @@ refueling_quantity = total_petrol_amount // tank_capacity
 if total_petrol_amount % tank_capacity != 0:
     refueling_quantity += 1
 
-print(f"Для того щоб разрохувати загальну кількість палева, яка знадобидтся для подорожі треба,\n"
-      f"Відстань від Харькова до Будапешта ({kharkiv_to_budapesht}(км)) разділити на 100 та помножити на расход палива на 100 км ({petrol_consumption_100}(л))\n"
-      f"Загальна кілкість літрів бензину для цієї поїздки буде: {total_petrol_amount} літрів\n")
+print(f"In order to calculate the total amount of fuel that will be needed for the trip, you need to:\n"
+      f"Divide the distance from Kharkiv to Budapest ({kharkiv_to_budapesht}(km)) by 100 and multiply by the fuel consumption per 100 km ({petrol_consumption_100}(l))\n"
+      f"The total number of liters of gasoline for this trip will be: {total_petrol_amount} liters\n")
 
-print(f"Для того щоб разрохувати загальну кількість дозаправок, які знадобляться для подорожі треба,\n"
-      f"Кількість палева ({total_petrol_amount}(л)) разділити на місткість ьаку ({tank_capacity}(л))\n"
-      f"Загальна кілкість зупинок для цієї поїздки буде: {refueling_quantity} раз")
+print(f"In order to calculate the total number of refueling that will be needed for the trip, you need to:\n"
+      f"The amount of fuel ({total_petrol_amount}(l)) divided by the tank capacity ({tank_capacity}(l))\n"
+      f"The total number of stops for this trip will be: {refueling_quantity} times")
